@@ -38,4 +38,4 @@ const galleryCardsArr = images.map(({ url, alt }) => {
 });
 
 console.log(galleryCardsArr);
-listEl.innerHTML = galleryCardsArr.join("");
+listEl.insertAdjacentHTML("afterbegin", galleryCardsArr.join(""));
