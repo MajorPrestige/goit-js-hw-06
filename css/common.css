@@ -37,3 +37,15 @@ button {
 .gallery-item:not(:last-child) {
 	margin-right: 20px;
 }
+
+.validation-input {
+	border: 2px solid #bdbdbd;
+}
+
+.valid {
+	border-color: #4caf50;
+}
+
+.invalid {
+	border-color: #f44336;
+}
